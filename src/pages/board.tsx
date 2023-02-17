@@ -18,7 +18,7 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<main className={styles.main}>
-				<h1>{texts.title}</h1>
+				<h1>{texts.boardTile}</h1>
 				<p>{texts.description}</p>
 				<Image src="https://i.dummyjson.com/data/products/1/1.jpg" alt={texts.heroAlt} width={500} height={300} />
 			</main>
